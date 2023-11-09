@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Practice</title>
+    <!-- adding a logo in the tab for title -->
+    <link rel="icon" href="Images/R.png">
+    <!-- Font Awesome link and adding it -->
+    <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.css">
+  </head>
+  <body>
+    <header>
+      <h3>Registration</h3>
+    </header>
+<!-- image paths should only use the "/" and not the "\" and to specity height and with we should use them different as shown below -->
+    <figure>
+      <img src="Images/CR7.jpg" alt="CR7" width="200" height="275">
+      <h2>Registraction form</h2>
+    </figure>
+
+    <br>
+    <br>
+    <hr>
+    <a href="www.google.com" target="_blank"> Go to Google</a>
+
+    <br>
+    <br>
+    <hr>
+  <div class="Registration Form">
+
+    <form class="" action="index.html" method="post">
+
+      <label>Full Name</label>
+      <input type="text" name="Full Name" placeholder="Enter Full Name">
+      <br>
+      <br>
+      <label>Select Gender</label>
+      <br>
+      <label>Male</label>
+      <input type="Radio" name="Gender" value="Male">
+
+      <label>Female</label>
+      <input type="Radio" name="Gender" value="Female">
+
+      <label>None Binary</label>
+      <input type="Radio" name="Gender" value="None Binary">
+
+      <label>Other</label>
+      <input type="Radio" name="Gender" value="Other">
+      <br>
+      <br>
+
+      <label>Select Birthday</label>
+      <select class="Birthday" name="Month">
+        <option value="">Month</option>
+        <option value="">Jan</option>
+        <option value="">Feb</option>
+        <option value="">Mar</option>
+        <option value="">Apr</option>
+        <option value="">May</option>
+        <option value="">Jun</option>
+        <option value="">Jul</option>
+        <option value="">Aug</option>
+        <option value="">Sep</option>
+        <option value="">Oct</option>
+        <option value="">Nov</option>
+        <option value="">Dec</option>
+      </select>
+      <select class="Birthday" name="Day">
+        <option value="">Day</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+        <option value="">13</option>
+        <option value="">14</option>
+        <option value="">15</option>
+        <option value="">16</option>
+        <option value="">17</option>
+        <option value="">18</option>
+        <option value="">19</option>
+        <option value="">20</option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option>
+        <option value="">26</option>
+        <option value="">27</option>
+        <option value="">28</option>
+        <option value="">29</option>
+        <option value="">30</option>
+        <option value="">31</option>
+      </select>
+      <label>Are you older than 18 years</label>
+      <input type="Radio" name="Age" value="" required>
+      <br>
+      <br>
+      <label>Enter Email Address</label>
+      <input type="email" name="Email" placeholder="Enter Email" required>
+      <br>
+      <br>
+      <label>Desired Password</label>
+      <input type="password" name="Password" placeholder="Enter Password" pattern=".{5,10}" required title="Please enter password 5 to 12 characters long">
+      <br>
+      <input type="submit" name="submit" value="Submit">
+      <input type="submit" name="restart" value="Restart">
+
+    </form>
+
+    <section id="fontawesome">
+      <h2>fontawesome icons below</h2>
+      <p>Below we have funt awesome icons within html one regular and one with a link</p>
+      <i class="fa-brands fa-facebook"></i>
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+    </section>
+
+    <section id="video">
+      <h1>Multimeda</h1>
+      <p>Multimeda below videos</p>
+      <video src="videoaudio/cr7video.mp4" controls muted width="400" height="300">
+
+      </video>
+
+    </section>
+
+    <section id="audio">
+      <h2>Audio</h2>
+      <p>Belwo we have an audio from Los Tigres Del Norte</p>
+      <audio src="videoaudio/DetallesLosTigresDelNorte.mp3" controls>
+
+      </audio>
+    </section>
+
+    <section id="tables">
+      <h2>table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Brandon</td>
+            <td>25</td>
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>Sarah</td>
+            <td>5</td>
+            <td>85</td>
+          <tr>
+            <td>Faith</td>
+            <td>3</td>
+            <td>83</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <cite>https://www.youtube.com/watch?v=KXgzMRjvyNI</cite>
+
+    <footer>
+      <h3>footer area</h3>
+
+    </footer>
+  </div>
+
+  </body>
+</html>
